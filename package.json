@@ -1,0 +1,28 @@
+{
+    "private": true,
+    "scripts": {
+        "start": "concurrently -k --restart-tries 3 --restart-after 3000 -p [{name}] -n webpack,jekyll -c yellow.bold,cyan.bold npm:watch:webpack npm:watch:jekyll",
+        "dev": "encore dev",
+        "prod": "encore prod",
+        "watch:webpack": "encore dev --watch",
+        "watch:jekyll": "bundle exec jekyll serve --watch",
+        "postinstall": "bundle install --path=vendor/bundle --jobs=4 --retry=3"
+    },
+    "dependencies": {
+        "alpinejs": "^2.4.1",
+        "@symfony/webpack-encore": "^0.30.2",
+        "@tailwindcss/custom-forms": "^0.2.1",
+        "autoprefixer": "^9.8.3",
+        "postcss-loader": "^3.0.0",
+        "tailwindcss": "^1.4.6"
+    },
+    "devDependencies": {
+        "concurrently": "^5.2.0"
+    },
+    "browserslist": [
+        "> 0.5%",
+        "last 2 versions",
+        "Firefox ESR",
+        "not dead"
+    ]
+}

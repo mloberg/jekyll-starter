@@ -1,0 +1,8 @@
+title: Your awesome title
+description: My awesome site
+permalink: /:slugified_categories/:title/
+
+exclude:
+  - "package*.json"
+  - "*.config.js"
+  - README.md
