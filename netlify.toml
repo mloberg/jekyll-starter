@@ -1,0 +1,7 @@
+[build]
+  command = "npm run prod && jekyll build"
+  publish = "_site/"
+
+[context.production.environment]
+  JEKYLL_ENV = "production"
+  NODE_ENV = "production"
