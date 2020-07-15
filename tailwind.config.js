@@ -9,6 +9,9 @@ module.exports = {
       zIndex: {
         "-1": "-1",
       },
+      screens: {
+        dark: { raw: "(prefers-color-scheme: dark)" },
+      },
     },
   },
   variants: {},
