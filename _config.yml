@@ -7,5 +7,6 @@ date_format: "%b %-d, %Y"
 exclude:
   - "package*.json"
   - "*.config.js"
+  - netlify.toml
   - README.md
   - LICENSE
