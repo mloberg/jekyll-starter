@@ -1,0 +1,20 @@
+---
+layout: default
+---
+<article itemscope itemtype="http://schema.org/BlogPosting">
+  <header>
+    <h1 itemprop="name headline">{{ page.title | escape }}</h1>
+    <p>
+      {%- assign date_format = site.date_format | default: "%b %-d, %Y" -%}
+      <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+        {{ page.date | date: date_format }}
+      </time>
+    </p>
+  </header>
+
+  <div class="prose prose-sm lg:prose-lg xl:prose-xl" itemprop="articleBody">
+    {{ content }}
+  </div>
+
+  <a href="{{ page.url | relative_url }}" hidden></a>
+</article>

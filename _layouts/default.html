@@ -1,5 +1,3 @@
----
----
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}" class="antialiased">
 <head>
@@ -10,7 +8,14 @@
   <link rel="stylesheet" href="{% link /assets/css/app.css %}">
 </head>
 <body class="bg-gray-100 text-gray-900 font-sans tracking-wider leading-normal">
-  {{ content }}
+  {%- include header.html -%}
+
+  <main aria-label="Content">
+    {{ content }}
+  </main>
+
+  {%- include footer.html -%}
+
   <script src="{% link /assets/js/app.js %}"></script>
 </body>
 </html>
