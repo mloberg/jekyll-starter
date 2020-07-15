@@ -8,3 +8,4 @@ exclude:
   - "package*.json"
   - "*.config.js"
   - README.md
+  - LICENSE
