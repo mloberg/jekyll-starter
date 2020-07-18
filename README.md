@@ -14,6 +14,8 @@ with
 
     npm install
 
+_Tip_: Be sure to commit the generated `package-lock.json` and `Gemfile.lock` files.
+
 Then to build and serve the dev site, run
 
     npm start
@@ -31,3 +33,8 @@ If you want to start creating posts and pages, we've included the
 
     bundle exec jekyll page "My New Page"
     bundle exec jekyll post "My New Post"
+
+## Deploying
+
+Includes configuration for deploying to [Netlify](https://www.netlify.com/) and
+[GitHub Pages](https://pages.github.com/) (via GitHub Actions).
