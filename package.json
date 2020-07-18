@@ -5,7 +5,7 @@
         "dev": "encore dev",
         "prod": "encore prod",
         "watch:webpack": "encore dev --watch",
-        "watch:jekyll": "bundle exec jekyll browsersync --drafts --open",
+        "watch:jekyll": "bundle exec jekyll serve --livereload --drafts --open",
         "postinstall": "bundle install --path=vendor/bundle --jobs=4 --retry=3"
     },
     "dependencies": {
@@ -18,7 +18,6 @@
         "tailwindcss": "^1.4.6"
     },
     "devDependencies": {
-        "browser-sync": "^2.26.7",
         "concurrently": "^5.2.0"
     },
     "browserslist": [
