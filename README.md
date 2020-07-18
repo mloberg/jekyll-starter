@@ -1,9 +1,9 @@
 # Jekyll Starter
 
-Starting point for Jekyll sites using [Tailwind CSS](https://tailwindcss.com/)
+> Starting point for Jekyll sites using [Tailwind CSS](https://tailwindcss.com/)
 and [Alpine.js](https://github.com/alpinejs/alpine/).
 
-[![Under development](https://img.shields.io/badge/status-Under%20development-green?style=for-the-badge)](https://github.com/mloberg/jekyll-starter)
+[![Use this template](https://img.shields.io/badge/template-Generate-green?style=for-the-badge)](https://github.com/mloberg/jekyll-starter/generate)
 [![Unlicense](https://img.shields.io/badge/license-Unlicense-blue?style=for-the-badge)](https://choosealicense.com/licenses/unlicense/)
 
 ## Getting Started
