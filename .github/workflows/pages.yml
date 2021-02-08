@@ -16,13 +16,13 @@ jobs:
       - uses: actions/setup-ruby@v1.1.2
         with:
           ruby-version: 2.6
-      - uses: actions/cache@v2
+      - uses: actions/cache@v2.1.4
         with:
           path: ~/.npm
           key: ${{ runner.os }}-node-${{ hashFiles('**/package.json') }}-${{ hashFiles('**/package-lock.json') }}
           restore-keys: |
             ${{ runner.os }}-node-
-      - uses: actions/cache@v2
+      - uses: actions/cache@v2.1.4
         with:
           path: vendor/bundle
           key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile') }}-${{ hashFiles('**/Gemfile.lock') }}
