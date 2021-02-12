@@ -9,7 +9,7 @@
         "postinstall": "bundle install --path=vendor/bundle --jobs=4 --retry=3"
     },
     "dependencies": {
-        "@symfony/webpack-encore": "^0.33.0",
+        "@symfony/webpack-encore": "^1.1.0",
         "@tailwindcss/custom-forms": "^0.2.1",
         "@tailwindcss/typography": "^0.2.0",
         "alpinejs": "^2.4.1",
