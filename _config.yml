@@ -10,3 +10,4 @@ exclude:
   - netlify.toml
   - README.md
   - LICENSE
+  - Makefile

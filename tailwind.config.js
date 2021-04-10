@@ -1,22 +1,22 @@
 module.exports = {
   purge: [
-    "./**/*.html",
-    "./**/*.md",
-    "./_assets/**/*.js",
+    './**/*.html',
+    './**/*.md',
+    './_assets/**/*.js',
   ],
+  darkMode: 'media', // or 'class' or false
   theme: {
     extend: {
       zIndex: {
-        "-1": "-1",
-      },
-      screens: {
-        dark: { raw: "(prefers-color-scheme: dark)" },
+        '-1': '-1',
       },
     },
   },
-  variants: {},
+  variants: {
+    extend: {},
+  },
   plugins: [
-    require("@tailwindcss/typography"),
-    require("@tailwindcss/custom-forms"),
+    require('@tailwindcss/typography'),
+    require('@tailwindcss/forms'),
   ],
 };
