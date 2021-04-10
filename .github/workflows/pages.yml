@@ -13,7 +13,7 @@ jobs:
       NODE_ENV: production
     steps:
       - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2.1.4
+      - uses: actions/setup-node@v2.1.5
         with:
           node-version: '14'
       - uses: actions/setup-ruby@v1.1.3
