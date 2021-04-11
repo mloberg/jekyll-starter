@@ -10,7 +10,6 @@ jobs:
     runs-on: ubuntu-latest
     env:
       JEKYLL_ENV: production
-      NODE_ENV: production
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2.1.5
