@@ -11,7 +11,7 @@
         "postinstall": "bundle install --path=vendor/bundle --jobs=4 --retry=3"
     },
     "dependencies": {
-        "alpinejs": "^2.8.2"
+        "alpinejs": "^3.1.0"
     },
     "devDependencies": {
         "@symfony/webpack-encore": "^1.1.2",
