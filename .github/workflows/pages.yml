@@ -12,7 +12,7 @@ jobs:
       JEKYLL_ENV: production
     steps:
       - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2.1.5
+      - uses: actions/setup-node@v2.3.0
         with:
           node-version: '14'
       - uses: actions/setup-ruby@v1.1.3
