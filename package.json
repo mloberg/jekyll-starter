@@ -20,7 +20,7 @@
         "autoprefixer": "^10.3.1",
         "concurrently": "^6.2.0",
         "eslint": "^7.32.0",
-        "eslint-config-airbnb-base": "^14.2.1",
+        "eslint-config-airbnb-base": "^15.0.0",
         "eslint-plugin-import": "^2.23.4",
         "postcss-loader": "^6.1.1",
         "tailwindcss": "^2.2.7"
